@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* DISPOSITION */
+
+body .calculator {
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 50px 50px;
+    background-color: rgb(0, 150, 100);
+    
+}
+
+body .calculator .screen {
+    width: 90%;
+    height: 15rem;
+    border: 1px solid black;
+    margin: 1rem;
+    background-color: white;
+}
+
+body .calculator .screen p {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+body .calculator .opeContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+body .calculator .opeContainer button {
+    font-size: 1.6rem;
+}
+
+body .calculator .numContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+body .calculator .lastContainer {
+    margin-bottom: 1rem;
+}
+
+/* STYLE BOUTONS */
+
+button {
+    border: 1px solid black;
+    border-radius: 15px 15px 30px 30px;
+    background-color: white;
+    width: 100%;
+    height: 50px;;
+    margin: 1rem;
+    font-size: 2rem;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.touch {
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.cancel {
+    background-color: rgb(200, 0, 80);
+}
+.operator {
+    background-color: rgb(100, 150, 190);
+}
+.number, .equal {
+    background-color: rgb(0, 75, 75);
+}

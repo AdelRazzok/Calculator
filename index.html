@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculatrice</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <p id="result"></p>
+        </div>
+
+        <div class="opeContainer">
+            <button type="button" id="plusTouch" class="touch operator" data-button="operator">+</button>
+            <button type="button" id="minusTouch" class="touch operator" data-button="operator">-</button>
+            <button type="button" id="multiTouch" class="touch operator" data-button="operator">x</button>
+        </div>
+        <div class="opeContainer lastContainer">
+            <button type="button" id="diviTouch" class="touch operator" data-button="operator">/</button>
+            <button type="button" id="moduloTouch" class="touch operator" data-button="operator">mod</button>
+            <button type="button" id="cancelTouch" class="touch cancel" data-button="cancel">C</button>
+        </div>
+
+        <div class="numContainer">
+            <button type="button" class="touch number" data-button="number">7</button>
+            <button type="button" class="touch number" data-button="number">8</button>
+            <button type="button" class="touch number" data-button="number">9</button>
+        </div>
+        <div class="numContainer">
+            <button type="button" class="touch number" data-button="number">4</button>
+            <button type="button" class="touch number" data-button="number">5</button>
+            <button type="button" class="touch number" data-button="number">6</button>
+        </div>
+        <div class="numContainer">
+            <button type="button" class="touch number" data-button="number">1</button>
+            <button type="button" class="touch number" data-button="number">2</button>
+            <button type="button" class="touch number" data-button="number">3</button>
+        </div>
+        <div class="numContainer lastContainer">
+            <button type="button" class="touch number" data-button="number">0</button>
+            <button type="button" class="touch number" data-button="comma">,</button>
+            <button type="button" class="touch equal" data-button="equal">=</button>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
