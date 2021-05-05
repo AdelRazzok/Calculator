@@ -12,17 +12,18 @@
 <body>
     <div class="calculator">
         <div class="screen">
+            <p id="calcDetail"></p>
             <p id="result"></p>
         </div>
 
         <div class="opeContainer">
-            <button type="button" id="plusTouch" class="touch operator" data-button="operator">+</button>
-            <button type="button" id="minusTouch" class="touch operator" data-button="operator">-</button>
-            <button type="button" id="multiTouch" class="touch operator" data-button="operator">x</button>
+            <button type="button" id="plusTouch" class="touch operator" data-button="operator" data-op="+">+</button>
+            <button type="button" id="minusTouch" class="touch operator" data-button="operator" data-op="-">-</button>
+            <button type="button" id="multiTouch" class="touch operator" data-button="operator" data-op="*">x</button>
         </div>
         <div class="opeContainer lastContainer">
-            <button type="button" id="diviTouch" class="touch operator" data-button="operator">/</button>
-            <button type="button" id="moduloTouch" class="touch operator" data-button="operator">mod</button>
+            <button type="button" id="diviTouch" class="touch operator" data-button="operator" data-op="/">/</button>
+            <button type="button" id="moduloTouch" class="touch operator" data-button="operator" data-op="%">%</button>
             <button type="button" id="cancelTouch" class="touch cancel" data-button="cancel">C</button>
         </div>
 
